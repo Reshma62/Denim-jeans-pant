@@ -19,11 +19,15 @@
   font-family: "Malgun";
   src: url("../assets/fonts/malgun.ttf");
 }
+@font-face {
+  font-family: "Hasina";
+  src: url("../assets/fonts/Hasina2.ttf");
+}
 body {
   font-family: "Li Ador Noirrit";
 }
-img{
-max-width: 100%;
+img {
+  max-width: 100%;
 }
 .container {
   max-width: 1290px;
@@ -32,7 +36,7 @@ max-width: 100%;
 }
 .btn {
   color: #092e67;
-  font-family: Rongtuli;
+  font-family: "Rongtuli";
   font-size: 24px;
   font-weight: 400;
   background: #f0e615;
@@ -230,8 +234,11 @@ max-width: 100%;
   top: 26%;
 }
 /* ===========================
-Product_details Styles
+      Product_details Styles
 ==============================*/
+.product_details_sec {
+  z-index: 5;
+}
 .product_para {
   margin: 80px 0;
   color: #003b60;
@@ -249,12 +256,13 @@ Product_details Styles
   max-width: 1329px;
   margin-inline: auto;
   /* justify-content: space-between; */
+  z-index: 5;
 }
-.product_img{
-flex-basis: 45%;
+.product_img {
+  flex-basis: 45%;
 }
-.product_details{
-flex-basis: 65%;
+.product_details {
+  flex-basis: 65%;
 }
 .list {
   list-style: none;
@@ -283,4 +291,68 @@ flex-basis: 65%;
   font-size: 44px;
   font-weight: 400;
   max-width: 600px;
+}
+/* ===========================
+      Product size Styles
+==============================*/
+
+.product_size_sec {
+  background: url("../assets/denimbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  margin-top: -351px;
+  z-index: 1;
+  padding-top: 80px;
+}
+.top_part {
+  text-align: center;
+  padding-left: 300px;
+}
+.product_size_sec h3 {
+  color: #f0e615;
+  font-family: "Rongtuli";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bootm_part {
+  padding-top: 791px;
+  text-align: center;
+  padding-bottom: 55px;
+}
+.bootm_part h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Hasina";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sizes_details {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.size {
+  position: absolute;
+}
+.size p {
+  color: #012a4a;
+   font-family: "Rongtuli";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sizes {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin-top: 16px;
 }
