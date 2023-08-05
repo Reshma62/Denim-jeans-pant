@@ -1,0 +1,227 @@
+/* Manrope google  font */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Li Ador Noirrit;
+  src: url("../assets/fonts/AdorNoirritWeb.otf");
+}
+@font-face {
+  font-family: "Rongtuli";
+  src: url("../assets/fonts/Rongtuli.ttf");
+}
+@font-face {
+  font-family: "Malgun";
+  src: url("../assets/fonts/malgun.ttf");
+}
+body {
+  font-family: Li Ador Noirrit;
+}
+.container {
+  max-width: 1287px;
+  width: 100%;
+  margin-inline: auto;
+}
+.btn {
+  color: #092e67;
+  font-family: Rongtuli;
+  font-size: 24px;
+  font-weight: 400;
+  background: #f0e615;
+  border: 1px solid transparent;
+  padding: 22px 44px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  border: 1px solid #092e67;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: transparent;
+}
+.logo {
+  display: inline-block;
+}
+.header {
+  background: url("../assets/bannerbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 42px;
+}
+
+.banner_container {
+  width: 100%;
+  margin-inline: auto;
+  padding-left: 312px;
+  padding-right: 109px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner_details {
+  padding: 80px 0;
+}
+.banner_subheading {
+  display: inline-block;
+  background: #012a4a;
+  color: #fff;
+  padding: 16px 30px;
+  font-size: 24px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.banner_heading {
+  color: #003b60;
+  font-size: 60px;
+  font-weight: 400;
+  max-width: 663px;
+  font-family: "Rongtuli";
+  margin: 30px 0;
+}
+.banner_total_prices {
+  color: #012a4a;
+  font-size: 24px;
+}
+.banner_total {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 52px;
+}
+.banner_discouts {
+  color: #608aab;
+  font-family: Li Ador Noirrit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  color: #608aab;
+  font-size: 24px;
+  text-decoration: line-through;
+}
+.banner_price {
+  color: #012a4a;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.arrow_right {
+  margin-left: 20px;
+}
+.banner_delivery {
+  color: #012a4a;
+  font-family: Li Ador Noirrit;
+  font-size: 30px;
+  font-weight: 400;
+  max-width: 445px;
+  margin-top: 50px;
+}
+.banner_img {
+  margin-top: -38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 17px;
+}
+.btns {
+  margin-top: -24px;
+}
+.btns button {
+  display: block;
+}
+.btn_call {
+  background: #012a4a;
+  color: #fff;
+  padding: 16px 30px;
+  font-size: 24px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-left: -57px;
+}
+.btn_number {
+  color: #012a4a;
+  font-family: Malgun Gothic;
+  font-size: 50px;
+  font-weight: 700;
+  background: #f0e615;
+  padding: 5px 30px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.banner_img_animation {
+  position: relative;
+}
+.banner_jeans {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border: 1px solid #003b60;
+  border-radius: 100%;
+  left: 0;
+  top: -76px;
+  -webkit-animation: rotate-center 5s linear infinite;
+  animation: rotate-center 5s linear infinite;
+}
+.circel_animation {
+  width: 60px;
+  height: 60px;
+  background: #003b60;
+  display: inline-block;
+}
+.banner_img img {
+  z-index: 21;
+  position: relative;
+}
+.banner_jeans span {
+  z-index: 1;
+}
+
+.circel_animation {
+  width: 60px;
+  height: 60px;
+  background: #003b60;
+  display: inline-block;
+  border-radius: 100%;
+  position: absolute;
+  left: 0px;
+  top: 26%;
+}
