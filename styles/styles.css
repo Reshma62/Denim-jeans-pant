@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: Li Ador Noirrit;
+  font-family: "Li Ador Noirrit";
   src: url("../assets/fonts/AdorNoirritWeb.otf");
 }
 @font-face {
@@ -20,10 +20,13 @@
   src: url("../assets/fonts/malgun.ttf");
 }
 body {
-  font-family: Li Ador Noirrit;
+  font-family: "Li Ador Noirrit";
+}
+img{
+max-width: 100%;
 }
 .container {
-  max-width: 1287px;
+  max-width: 1290px;
   width: 100%;
   margin-inline: auto;
 }
@@ -146,6 +149,7 @@ body {
 .btn_call {
   background: #012a4a;
   color: #fff;
+  font-family: "Li Ador Noirrit";
   padding: 16px 30px;
   font-size: 24px;
   border-top-left-radius: 40px;
@@ -154,7 +158,7 @@ body {
 }
 .btn_number {
   color: #012a4a;
-  font-family: Malgun Gothic;
+  font-family: "Malgun";
   font-size: 50px;
   font-weight: 700;
   background: #f0e615;
@@ -224,4 +228,59 @@ body {
   position: absolute;
   left: 0px;
   top: 26%;
+}
+/* ===========================
+Product_details Styles
+==============================*/
+.product_para {
+  margin: 80px 0;
+  color: #003b60;
+  font-family: "Li Ador Noirrit";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 1025px;
+  margin-inline: auto;
+}
+.product_content {
+  display: flex;
+  gap: 94px;
+  max-width: 1329px;
+  margin-inline: auto;
+  /* justify-content: space-between; */
+}
+.product_img{
+flex-basis: 45%;
+}
+.product_details{
+flex-basis: 65%;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  column-count: 2;
+  margin-top: 40px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  color: #003b60;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.check-icon {
+  margin-right: 17px;
+}
+.product_heading {
+  color: #003b60;
+  font-family: "Rongtuli";
+  font-size: 44px;
+  font-weight: 400;
+  max-width: 600px;
 }
