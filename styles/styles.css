@@ -298,9 +298,8 @@ img {
 
 .product_size_sec {
   background: url("../assets/denimbg.png");
-  background-size: cover;
   background-repeat: no-repeat;
-  /* position: relative; */
+  background-position: center;
   margin-top: -351px;
   z-index: 1;
   padding-top: 80px;
@@ -318,7 +317,7 @@ img {
   line-height: normal;
 }
 .bootm_part {
-  padding-top: 791px;
+  padding-top: 500px;
   text-align: center;
   padding-bottom: 55px;
 }
@@ -489,9 +488,168 @@ p.feature_text:first-child {
 .video_para_w_md {
   max-width: 893px;
   border: 1px solid #003b60;
-
 }
 .video_para_w_sm {
   max-width: 581px;
   border: 1px solid #003b60;
+}
+/*  */
+
+.testimonial_sec {
+  background: #f0f9ff;
+  padding-bottom: 80px;
+  position: relative;
+  padding-top: 435px;
+}
+.top_details {
+  background: url("../assets/pocket.png");
+  width: 902px;
+  height: 700px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  position: absolute;
+  top: -360px;
+  left: 0;
+  right: 0;
+}
+.top_details h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Rongtuli";
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.top_details p {
+  color: #fff;
+  text-align: center;
+  font-family: "Li Ador Noirrit";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 14px;
+  margin-bottom: 28px;
+}
+/* client_says */
+
+.client_details {
+  background-color: #fff;
+  box-shadow: 20px 13px 49px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 30px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  flex: 0 0 calc(91% / 3);
+  /* margin: 0 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.client_details img {
+  margin-top: -85px;
+}
+.client_details h2 {
+  color: #003b60;
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.client_details h6 {
+  color: #003b60;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 25px;
+  border-bottom: 1px dashed #012a4a;
+  max-width: 210px;
+  margin-inline: auto;
+  padding-bottom: 25px;
+}
+.client_details p {
+  color: #003b60;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 330px;
+  margin-inline: auto;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.carousel {
+  position: relative;
+}
+
+.client_says {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 57px;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.carousel-controls button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn img,
+.next-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.client_details.center {
+  background-color: #003b60;
+}
+.client_details.center * {
+  color: #fff;
+  border-color: #fff;
+}
+button.prev-btn,
+button.next-btn {
+  border: 1px solid #262f30;
+  padding: 14px;
+  border-radius: 100%;
+  text-align: center;
+  width: 57px;
+  height: 57px;
+  font-size: 25px;
+  color: #003b60;
+}
+button.next-btn {
+  background: #003b60;
+  color: #fff;
 }
