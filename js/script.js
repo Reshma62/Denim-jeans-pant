@@ -41,7 +41,10 @@ function prevSlide() {
     prevButton.style.backgroundColor = "transparent";
     prevButton.style.color = "#003B60";
   }
-   
+  if (currentIndex !== items.length - 1) {
+    nextButton.style.backgroundColor = "#003B60";
+    nextButton.style.color = "#fff";
+  }
 }
 
 function nextSlide() {
@@ -62,6 +65,10 @@ function nextSlide() {
   }
   prevButton.style.backgroundColor = "#003B60";
   prevButton.style.color = "#fff";
+  if (currentIndex == 0) {
+    prevButton.style.backgroundColor = "transparent";
+    prevButton.style.color = "#003B60";
+  }
 }
 
 prevButton.addEventListener("click", prevSlide);
@@ -69,3 +76,12 @@ nextButton.addEventListener("click", nextSlide);
 
 // Initial update
 updateCarousel();
+
+let chk = document.getElementById("termsChkbx");
+console.log(chk.checked);
+if (chk.checked==true) {
+  console.log("jh");
+  // chk.parentElement.style.color = "black";
+} else {
+  // chk.parentElement.style.color = "red";
+}

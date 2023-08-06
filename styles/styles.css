@@ -653,3 +653,340 @@ button.next-btn {
   background: #003b60;
   color: #fff;
 }
+/*  */
+.order_sec {
+  background: url("../assets/belingbg.png");
+  background-size: cover;
+}
+.overlay {
+  background: linear-gradient(#003b60 0%, rgba(0, 59, 96, 0) 100%);
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 333px;
+}
+.order_heading {
+  color: #fff;
+  font-family: "Rongtuli";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.order_forms {
+  display: flex;
+  gap: 117px;
+}
+.billing_details h3,
+.order_details > h3 {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  margin-bottom: 15px;
+}
+.billing_details {
+  flex-basis: 45%;
+}
+.billing_details .billing_form input {
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.829);
+  background: transparent;
+  padding: 12px 18px;
+  width: 100%;
+  outline: 0;
+  color: #fff;
+}
+input::placeholder {
+  color: #fff;
+  font-family: "Li Ador Noirrit";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.billing_form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.cash_on {
+  background: #fff;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-top: 28px;
+  box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px
+      rgba(0, 0, 0, 0.01),
+    0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+    0px -3px 25.481481552124023px 0px rgba(0, 0, 0, 0.02),
+    0px 35px 46.85185241699219px 0px rgba(0, 0, 0, 0.02),
+    0px -68px 80px 0px rgba(0, 0, 0, 0.03);
+}
+.cash_on_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  /* accent-color: rgb(250, 158, 87); */
+  /* color: #fff; */
+}
+
+.pay {
+  padding-left: 30px;
+}
+.cash_on h4 {
+  color: #080422;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.triangle_container {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background-color: #003b60;
+  border-bottom-right-radius: 50px;
+  margin-top: 26px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -20px;
+  left: 14%;
+  transform: translateX(-50%);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #003b60;
+  display: flex;
+}
+.cash_on_p {
+  color: #080422;
+  font-family: Li Ador Noirrit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
+.triangle_container p {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding: 12px 0;
+  padding-left: 23px;
+}
+.order_container {
+  width: 463px;
+  border: 1px solid #fff;
+
+  border-radius: 4px;
+}
+.order_header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  padding: 20px 35px;
+}
+.order_header h3,
+.order_header h4 {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 28.8px */
+}
+.order_header h4 {
+  font-weight: 400;
+}
+.product_prices {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  padding: 12px 35px;
+  align-items: center;
+}
+.product_img_pr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.product_img_pr p {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 171px;
+}
+.count,
+.price {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.shiping {
+  padding: 15px 35px;
+  border-bottom: 1px solid #fff;
+}
+
+.shiping h4 {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.sub_total,
+.shiping_d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shiping_d form,
+.shiping_d form label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.shiping_d form label {
+  flex-direction: row;
+  gap: 10px;
+  color: #fff;
+  font-family: Li Ador Noirrit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.total_prices {
+  padding: 15px 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.total_prices h3 {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.total_prices p {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+}
+.btn_order {
+  width: 100%;
+  margin-top: 37px;
+}
+/*  */
+
+.contact_sec {
+  position: relative;
+}
+.con {
+  background-color: #003b60;
+  max-width: 1638px;
+  margin-inline: auto;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: -200px;
+}
+.contact_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 0;
+  max-width: 1290px;
+  margin-inline: auto;
+}
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.links h3 {
+  color: #fff;
+  text-align: center;
+  font-family: " Li Ador Noirrit";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hr {
+  width: 40%;
+  height: 2px;
+  background-color: #f0e615;
+  margin-bottom: 29px;
+  margin-top: 10px;
+}
+.links a {
+  color: #fff;
+  font-family: Li Ador Noirrit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+.footerLogo p {
+  font-size: 44px;
+  color: #fff;
+}
+span.color_logo {
+  color: #f0e615;
+}
+.contact_num p {
+  color: #f0e615;
+  text-align: center;
+  font-family: Li Ador Noirrit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contact_num h4 {
+  color: #f8f8f8;
+  font-family: Manrope;
+  font-size: 39.99px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/*  */
