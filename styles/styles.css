@@ -327,9 +327,10 @@ img {
   text-align: center;
   font-family: "Hasina";
   font-size: 50px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  max-width: 800px;
+  margin-inline: auto;
+  margin-bottom: 35px;
 }
 .sizes_details {
   position: relative;
@@ -343,7 +344,7 @@ img {
 }
 .size p {
   color: #012a4a;
-   font-family: "Rongtuli";
+  font-family: "Rongtuli";
   font-size: 44px;
   font-style: normal;
   font-weight: 400;
@@ -355,4 +356,142 @@ img {
   justify-content: center;
   gap: 26px;
   margin-top: 16px;
+}
+svg {
+  animation: rotate-center 5s linear infinite; /* Adjust the animation duration as needed */
+}
+.btn_denim {
+  color: #092e67;
+  font-family: "Rongtuli";
+  font-size: 24px;
+  font-weight: 400;
+  background: #f0e615;
+  border: 1px solid transparent;
+  padding: 22px 44px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/*  */
+
+.feature {
+  background: #f0f9ff;
+  padding-top: 80px;
+  padding-bottom: 300px;
+}
+.feature_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature_item {
+  background: #fff;
+  box-shadow: drop-shadow(18px -27px 111px rgba(0, 0, 0, 0.04));
+  box-shadow: 18px -27px 111px rgba(0, 0, 0, 0.04);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 30px 20px;
+  width: 300px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.feature_img {
+  text-align: center;
+  flex-grow: 1;
+}
+p.feature_text:first-child {
+  padding: 27px;
+}
+.feature_text {
+  background: #012a4a;
+  color: #fff;
+  font-family: "Li Ador Noirrit";
+  padding: 16px 30px;
+  font-size: 24px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-top: 26px;
+}
+.dashed-line {
+  border: 1px dashed #003b60;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 67px;
+}
+/*  */
+.feature_heading {
+  color: #003b60;
+  font-family: "Rongtuli";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 73px;
+}
+.list_feature {
+  list-style: none;
+  padding: 0;
+  column-count: 2;
+  margin-top: 40px;
+  padding: 0 60px;
+}
+.list_feature .list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #003b60;
+  font-family: "Li Ador Noirrit";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+/*  */
+.video_sec {
+  margin-top: -230px;
+  padding-bottom: 386px;
+}
+.video_container {
+  max-width: 1530px;
+  margin-inline: auto;
+}
+.video_container img {
+  width: 100%;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.video_heading {
+  color: #003b60;
+  font-family: "Rongtuli";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 62px;
+  margin-bottom: 40px;
+}
+.video_para {
+  color: #003b60;
+  font-family: "Li Ador Noirrit";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 57px;
+  margin-inline: auto;
+  padding: 18px 0;
+}
+.video_para_w_md {
+  max-width: 893px;
+  border: 1px solid #003b60;
+
+}
+.video_para_w_sm {
+  max-width: 581px;
+  border: 1px solid #003b60;
 }
